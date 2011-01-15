@@ -30,7 +30,7 @@ set nowrapscan
 set nrformats-=octal
 set backspace=indent,eol,start
 set viminfo+=f1
-set foldmethod=marker
+" set foldmethod=marker
 set display=lastline
 
 " ------------------------------
