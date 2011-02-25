@@ -1,0 +1,3 @@
+# in your directory
+> mv vim-env .vim
+> ln -s .vim/.vimrc .
