@@ -114,6 +114,8 @@ nnoremap N Nzz
 " ------------------------------
 " CakePHPのビュー
 au BufRead,BufNewFile *.thtml set filetype=php
+" SCSS
+au BufRead,BufNewFile *.scss set filetype=css
 
 " ------------------------------
 " 最後にヤンクしたデータを貼り付ける
