@@ -1,2 +1,6 @@
+.netrwhist
 vim_backup/*~
 vim_swap/*.swp
+vim_swap/*.swn
+vim_swap/*.swm
+vim_swap/*.swo
