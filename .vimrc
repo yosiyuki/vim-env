@@ -115,6 +115,7 @@ nnoremap N Nzz
 " CakePHPのビュー
 au BufRead,BufNewFile *.thtml set filetype=php
 au BufRead,BufNewFile *.erb set filetype=html
+au BufRead,BufNewFile *.slim set filetype=slim
 
 " ------------------------------
 " 最後にヤンクしたデータを貼り付ける
