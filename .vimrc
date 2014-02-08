@@ -116,6 +116,7 @@ nnoremap N Nzz
 au BufRead,BufNewFile *.thtml set filetype=php
 au BufRead,BufNewFile *.erb set filetype=html
 au BufRead,BufNewFile *.slim set filetype=slim
+au BufRead,BufNewFile *.less set filetype=less
 
 " ------------------------------
 " 最後にヤンクしたデータを貼り付ける
