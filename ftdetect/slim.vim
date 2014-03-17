@@ -1,0 +1,1 @@
+../modules/vim-slim/ftdetect/slim.vim
