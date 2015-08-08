@@ -1,3 +1,7 @@
-# in your directory
+# in your terminal
+> cd
+> git clone git@github.com:yosiyuki/vim-env.git
 > mv vim-env .vim
 > ln -s .vim/.vimrc .
+
+# enjoy!
