@@ -118,7 +118,9 @@ au BufRead,BufNewFile *.erb set filetype=html
 au BufRead,BufNewFile *.haml set filetype=ruby
 au BufRead,BufNewFile *.scss set filetype=css
 au BufRead,BufNewFile *.slim set filetype=slim
+au BufRead,BufNewFile *.jade set filetype=slim
 au BufRead,BufNewFile *.less set filetype=less
+au BufRead,BufNewFile *.json set filetype=javascript
 
 " ------------------------------
 " 最後にヤンクしたデータを貼り付ける
@@ -211,9 +213,10 @@ endif
 " 改行コードの自動認識
 set fileformats=unix,dos,mac
 " □とか○の文字があってもカーソル位置がずれないようにする
-if exists('&ambiwidth')
-  set ambiwidth=double
-endif
+"if exists('&ambiwidth')
+"  set ambiwidth=double
+"endif
+set ambiwidth=single
 
 " ------------------------------
 " プラグインの設定
