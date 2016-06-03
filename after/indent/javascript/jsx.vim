@@ -1,0 +1,1 @@
+../../../modules/vim-jsx/after/indent/jsx.vim

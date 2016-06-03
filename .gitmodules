@@ -4,3 +4,6 @@
 [submodule "modules/vim-less"]
 	path = modules/vim-less
 	url = git@github.com:groenewege/vim-less.git
+[submodule "modules/vim-jsx"]
+	path = modules/vim-jsx
+	url = git@github.com:mxw/vim-jsx.git
