@@ -7,3 +7,6 @@
 [submodule "modules/vim-jsx"]
 	path = modules/vim-jsx
 	url = git@github.com:mxw/vim-jsx.git
+[submodule "modules/vim-vue"]
+	path = modules/vim-vue
+	url = git@github.com:posva/vim-vue.git
