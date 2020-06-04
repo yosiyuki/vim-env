@@ -245,6 +245,7 @@ set cursorline
 call plug#begin('~/.vim/plugged')
 
 Plug 'jonmorehouse/vim-flow'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 "
 "" Make sure you use single quotes
 "
