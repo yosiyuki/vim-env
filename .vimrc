@@ -242,7 +242,9 @@ set cursorline
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
-"call plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged')
+
+Plug 'jonmorehouse/vim-flow'
 "
 "" Make sure you use single quotes
 "
