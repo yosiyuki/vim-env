@@ -115,7 +115,7 @@ nnoremap N Nzz
 " CakePHPのビュー
 au BufRead,BufNewFile *.thtml set filetype=php
 au BufRead,BufNewFile *.erb set filetype=html
-au BufRead,BufNewFile *.haml set filetype=ruby
+au BufRead,BufNewFile *.haml set filetype=haml
 au BufRead,BufNewFile *.scss set filetype=css
 au BufRead,BufNewFile *.slim set filetype=slim
 au BufRead,BufNewFile *.jade set filetype=slim
@@ -234,7 +234,45 @@ let g:miniBufExplorerMoreThanOne    = 0
 let g:miniBufExplMapCTabSwitchBuffs = 1
 
 set cursorline
+
 "set guibg=Purple
 "set guifg=NONE
 "set guicursor=n-v-c:block-Cursor/lCursor,ve:ver35-Cursor,o;hor50-Cursor,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor,sm:block-Cursor-blinkwait175-blinkoff150-blinkon175
+
+" Specify a directory for plugins
+" - For Neovim: stdpath('data') . '/plugged'
+" - Avoid using standard Vim directory names like 'plugin'
+"call plug#begin('~/.vim/plugged')
 "
+"" Make sure you use single quotes
+"
+"" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+"Plug 'junegunn/vim-easy-align'
+"
+"" Any valid git URL is allowed
+"Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+"
+"" Multiple Plug commands can be written in a single line using | separators
+"Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+"
+"" On-demand loading
+"Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+"Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+"
+"" Using a non-master branch
+"Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+"
+"" Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
+"Plug 'fatih/vim-go', { 'tag': '*' }
+"
+"" Plugin options
+"Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
+"
+"" Plugin outside ~/.vim/plugged with post-update hook
+"Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+"
+"" Unmanaged plugin (manually installed and updated)
+"Plug '~/my-prototype-plugin'
+"
+"" Initialize plugin system
+"call plug#end()
